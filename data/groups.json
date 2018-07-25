@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "E Street Band",
+        "members": [
+            {
+                "id": 1,
+                "name": "Clarence C",
+                "email": "thebigman@email.com",
+                "password": "jungleland",
+                "residence": "New York, New York",
+                "groups": []
+            },
+            {
+                "id": 2,
+                "name": "Max Weinberg",
+                "email": "drummer@e-streetl.com",
+                "password": "onetwothree",
+                "residence": "Newark, New Jersey",
+                "groups": []
+            },
+            {
+                "id": 3,
+                "name": "Steven Van Zandt",
+                "email": "miamisteve@gmail.com",
+                "password": "dicipleofsoul",
+                "residence": "Winthrop, Massachusetts",
+                "groups": [
+                    {
+                        "id": 3,
+                        "name": "Little Steven and the Disciples of Soul",
+                        "members": [
+                            {
+                                "id": 3,
+                                "name": "Steven Van Zandt",
+                                "email": "miamisteve@gmail.com",
+                                "password": "dicipleofsoul",
+                                "residence": "Winthrop, Massachusetts",
+                                "groups": []
+                            },
+                            {
+                                "id": 4,
+                                "name": "Mark Ribler",
+                                "email": "markribler@gmail.com",
+                                "password": "someguy",
+                                "residence": "Jackson, New Jersey",
+                                "groups": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "The Rolling Stones",
+        "members": [
+            {
+                "id": 5,
+                "name": "Keith Richards",
+                "email": "stayingalive@thestones.com",
+                "password": "guitargod",
+                "residence": "London, England",
+                "groups": []
+            },
+            {
+                "id": 6,
+                "name": "Charlie Watts",
+                "email": "drummin4life@thestones.com",
+                "password": "rocksoff",
+                "residence": "London, England",
+                "groups": []
+            },
+            {
+                "id": 7,
+                "name": "Ronnie Wood",
+                "email": "faces@thestones.com",
+                "password": "alldowntheline",
+                "residence": "Hillingdon, England",
+                "groups": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Little Steven and the Disciples of Soul",
+        "members": [
+            {
+                "id": 3,
+                "name": "Steven Van Zandt",
+                "email": "miamisteve@gmail.com",
+                "password": "dicipleofsoul",
+                "residence": "Winthrop, Massachusetts",
+                "groups": []
+            },
+            {
+                "id": 4,
+                "name": "Mark Ribler",
+                "email": "markribler@gmail.com",
+                "password": "someguy",
+                "residence": "Jackson, New Jersey",
+                "groups": []
+            }
+        ]
+    }
+]

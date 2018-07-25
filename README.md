@@ -1,36 +1,40 @@
 ## Presentation Examples/Solutions
 
 ### Rest/GraphQL Queries for the following
-* A list of names from every group that Bruce S belonged to (assuming you know his email)
+* A list of the names of members in a particular group.
 ``` graphql
 query {
-  user(email: "imarocker@email.com") {
-    groups {
-      members {
-        name
-      }
+  group(id: 3) {
+    name,
+    members {
+      name
     }
   }
 }
 ```
-``` rest
-http://localhost:4000/groupNames/imarocker@email.com
-```
 
-* A list of names of all of the groups and the members that belong to them
+* A list of the names of all groups in the system that a user belongs to.
 ``` graphql
 query {
-  users {
+  user(id: 8) {
+    groups {
+      name
+    }
+  }
+}
+```
+
+* A list of groups in the system that a user belongs to, but instead of just the name of the group, return the names and emails of all the members in each group.
+``` graphql
+query {
+  user(id: 8) {
     groups {
       name
       members {
-        name
+        name,
         email
       }
     }
   }
 }
-```
-``` rest
-http://localhost:4000/groupMembers
 ```

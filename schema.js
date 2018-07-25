@@ -3,11 +3,14 @@ import resolvers from './resolvers';
 
 const typeDefs = `
 type Query {
-  user(email: String): User
+  user(id: Int): User
   users: [User]
+  group(id: Int): Group
+  groups: [Group]
 }
 
 type User {
+  id: ID!
   name: String
   email: String
   password: String
@@ -16,6 +19,7 @@ type User {
 }
 
 type Group {
+  id: ID!
   name: String
   members: [User]!
 }
